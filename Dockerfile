@@ -8,7 +8,7 @@ COPY . /app/
 WORKDIR /app
 
 # Install dependencies.
-RUN npm install
+RUN npm install cors
 
 # Start the Express app
 CMD ["node", "server.js"]
